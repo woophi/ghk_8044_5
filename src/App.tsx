@@ -42,14 +42,8 @@ export const App = () => {
               с призовым фондом
             </Typography.Text>
           </div>
-          <img
-            src={hbImg}
-            alt="HB"
-            width="100%"
-            height={260}
-            style={{ objectFit: 'cover', transform: 'scale(1.1)', margin: '-1rem 0 1rem' }}
-          />
-          <Typography.Text view="primary-small" color="secondary">
+          <img src={hbImg} alt="HB" width="100%" height={260} style={{ objectFit: 'contain' }} />
+          <Typography.Text view="primary-small" color="secondary" style={{ maxWidth: '335px' }}>
             Участвуйте в онлайн турнире с оффлайн финалом в Москве
           </Typography.Text>
         </div>
